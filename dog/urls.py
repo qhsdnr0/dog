@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     # path('/movies', ),
-    path('', include('owners.urls')),
+    path('owners', include('owners.urls')),
 ]
